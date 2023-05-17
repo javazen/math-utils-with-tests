@@ -80,3 +80,6 @@ function roundNumberSimple(value, decimalDigits) {
   const retval = Math.round(value * multiplier) / multiplier;
   return retval;
 }
+
+
+// return value.toFixed(decimalDigits);
