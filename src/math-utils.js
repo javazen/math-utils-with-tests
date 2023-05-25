@@ -79,7 +79,5 @@ function roundNumberSimple(value, decimalDigits) {
 	const multiplier = Math.pow(10, decimalDigits);
   const retval = Math.round(value * multiplier) / multiplier;
   return retval;
-}
-
-
 // return value.toFixed(decimalDigits);
+}
